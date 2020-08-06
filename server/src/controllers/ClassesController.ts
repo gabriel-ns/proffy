@@ -17,7 +17,6 @@ export default class ClassesController {
         const week_day = filters.week_day as string
         const time = filters.time as string
 
-        console.log(filters)
         if (!week_day || !subject || !time) {
             return res.status(400)
         }
