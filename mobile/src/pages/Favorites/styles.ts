@@ -5,8 +5,6 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: AppColors["color-background"],
         flex: 1,
-        justifyContent: 'center',
-        padding: 40
     },
 })
 
