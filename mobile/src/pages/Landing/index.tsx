@@ -16,6 +16,10 @@ function Landing() {
         navigation.navigate('GiveClasses')
     }
 
+    function handleNavigateToStudyPages() {
+        navigation.navigate('Study')
+    }
+
     return (
         <View style={styles.container}>
             <Image style={styles.banner} source={landingImg} />
@@ -26,6 +30,7 @@ function Landing() {
 
             <View style={styles.buttonsContainer}>
                 <RectButton 
+                    onPress={handleNavigateToStudyPages}
                     rippleColor={'#555'}
                     style={[styles.button, styles.buttonPrimary]}
                 >
