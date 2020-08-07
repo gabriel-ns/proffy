@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-*/node_modules
+*/node_modules/**/*
 */.pnp
 *.pnp.js
 
@@ -23,3 +23,16 @@
 *yarn-error.log*
 
 *.sqlite
+
+mobile/.expo/*
+mobile/npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+mobile/web-build/
+
+# macOS
+mobile/.DS_Store
