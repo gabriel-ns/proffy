@@ -36,3 +36,5 @@ mobile/web-build/
 
 # macOS
 mobile/.DS_Store
+
+*.lock
