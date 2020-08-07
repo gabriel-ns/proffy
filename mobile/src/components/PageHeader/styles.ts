@@ -3,7 +3,7 @@ import AppColors from '../../global/Colors'
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: AppColors["color-primary-light"],
+        backgroundColor: AppColors["color-primary"],
         justifyContent: 'center',
         padding: 40
     },
@@ -21,7 +21,13 @@ const styles = StyleSheet.create({
         lineHeight: 32,
         maxWidth: 160,
         marginVertical: 40
-    }
+    },
+
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
 })
 
 export default styles;
